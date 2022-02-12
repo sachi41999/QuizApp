@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { ShareModule } from './shared/share.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 
 
@@ -15,7 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,ShareModule,CoreModule, BrowserAnimationsModule
+    AppRoutingModule,ShareModule,CoreModule, BrowserAnimationsModule,MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
